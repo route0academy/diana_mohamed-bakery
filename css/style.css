@@ -1,0 +1,380 @@
+/* !genertal setting */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.clear_fix {
+    clear: both;
+}
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+
+    font-size: 17px;
+    font-weight: 400;
+   
+}
+h2,
+h4 {
+    color: #303030;
+    font-family: 'Alegreya', serif;
+    font-size: 25.5px;
+    font-weight: 400;
+
+}
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+}
+h1 {
+    font-family: 'Alegreya', serif;
+    font-size: 76px;
+    font-weight: 400;
+}
+h2 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+h4 {
+    font-size: 22px;
+}
+.container {
+
+    margin: auto;
+    width: 90%;
+    padding-bottom:60px;
+    padding-top: 100px;
+}
+.caption {
+    display: inline-block;
+    margin-left: 100px;
+    line-height: 1.5;
+    color:black;
+    width: 45%;
+    vertical-align: middle;
+    
+
+}
+
+.icon_image {
+    width: 35px;
+    height: 35px;
+    border: 1px solid burlywood;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.custom_image {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+
+}
+.custom_image img {
+    width: 100%;
+    margin-left: 40px;
+    vertical-align: middle;
+    /* margin: 20px 15px 0 15px;  */
+
+
+}
+
+.paragraph_beside_icon{
+    display: inline-block;
+
+ padding: 25px 5px 5px 5px;
+}
+/*!end universal setting */
+/**start Home */
+.home {
+    background-image: url("../images/drew-coffman-1872.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  
+}
+.home .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* ^start nav */
+.nav
+{
+    position: fixed;
+    background-color: transparent;
+    left: 30px;
+    right: 50px;
+    top: 0;
+    height: 100px;
+    z-index: 99999;
+}
+.home .overlay .container
+{
+   padding-top: 0;
+
+}
+.home .container img {
+
+    width: 180px;
+    float: left;
+    margin-top: 20px;
+}
+.home .container .nav .main-nav {
+
+    float: right;
+    margin-top: 20px;
+    
+
+}
+.home .container .nav .main-nav li {
+    list-style: none;
+    display: inline-block;
+
+    padding: 5px 5px;
+}
+.home .container .nav .main-nav li a {
+
+    color: white;
+    font: bold;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/* ^end nav */
+/* start caption */
+.home .container .caption {
+
+    padding-top: 90px;
+    margin: auto;
+   height: 100%;;
+    color: white;
+    text-align: center;
+    width:100%;
+}
+.home .container .caption p {
+    padding-top: 20px;
+    font-size: 24px;
+}
+.home .container .caption button {
+    margin-top: 40px;
+    text-align: center;
+    background-color: transparent;
+    padding: 15px 28px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+}
+.home .container .caption .Learn_button {
+    background-color: #8e7754;
+    border: none;
+}
+/* end home button */
+/* start scroll button */
+.home .container .caption .scroll_button {
+    border: 2px solid white;
+    width: 35px;
+    height: 60px;
+    border-radius: 20px;
+
+    margin: 80px auto;
+}
+
+/* end scroll button */
+
+/**end Home */
+
+/* &start location section*/
+/* &start contact section*/
+
+.location_section,.contact_section {
+    background-color: #F8F8F8;
+}
+
+.location_section .caption,.contact_section .caption {
+    margin-left: 20px;
+}
+
+/*  */
+
+
+/* start baking section  */
+.baking .baking_title {
+    text-align: center;
+    line-height: 2.5;
+}
+
+.baking .baking_title p {
+    padding-bottom: 10px;
+}
+
+.baking .baking_content .item {
+
+    padding: 0 10px;
+    text-align: center;
+
+    float: left;
+    width: 33.33%;
+    padding: 0 50px;
+}
+
+.baking .baking_content .item .inner img {
+
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+ .inner p {
+    line-height: 1.5;
+    color: #969696;
+    font-size: 20px;
+}
+
+/* end baking section  */
+
+/* *start contact section */
+
+.contact_section .custom_image iframe {
+    width:600px;
+    height: 450px;
+    
+    margin: 30px;
+   border:none;
+   
+}
+
+/* *end contact section  */
+/* start contact details */
+.contact_details .details_caption .item {
+    float: left;
+    width: 22.5%;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 60px;
+
+}
+
+.contact_details .details_caption {
+
+    background-color: #403D38;
+}
+
+.contact_details .details_caption .item .inner h4 {
+    color: white;
+    font-size: 20px;
+}
+
+.contact_details .details_caption .item .inner img {
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+    vertical-align: middle;
+    border: none;
+    opacity: .2;
+}
+
+.contact_details .details_caption .item .inner p {
+    line-height: 1.5;
+    color: white;
+    font-size: 15px;
+}
+
+.contact_details .details_caption .item .inner a {
+    color: white;
+    text-decoration: none;
+}
+
+.draw_line {
+    border: 1px solid rgba(241, 239, 239, .1);
+
+}
+
+/* end contact details */
+/* start copy right bakery */
+.copy-right {
+    background-color: #353330;
+    text-align: center;
+    color: #969696;
+
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.copy-right .bakery_img {
+    width: 350px;
+
+}
+
+.copy-right li {
+    list-style: none;
+    display: inline-block;
+
+    padding: 5px 5px;
+}
+
+.copy-right .socail_img {
+    border: none;
+
+}
+/* &start setting_bar */
+.setting_bar .custom_image
+{
+    display:block;
+
+    width: 30px;
+}
+.setting_bar
+{
+    width: 40px;
+    height: 80px;
+    position: fixed;
+    right: 0;
+    top: 20%;
+    background-color: white;
+   z-index: 2;
+}
+
+
+/* &end setting_bar */
+/* end copy right bakery */
+/* 0 =>600px */
+@media screen and (max-width:600px){
+    .baking .container .baking_content .item,
+    .caption,
+    .custom_image.bakery_img,.contact_details .details_caption .item
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:601px) {
+    .baking .container .baking_content .item {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .baking .container .baking_content .item{
+        width: 33.333333%;
+    }
+}
+
+@media all and (min-width:993px) {
+    .baking .container .baking_content .item {
+        width: 33.333333%;
+    }
+}
+
+@media all and (min-width:1200px){
+    .baking .container .baking_content .item {
+        width: 33.333333%;
+    }
+}
+/* types of media  */
+@media print{
+    .baking .container .baking_content .item{
+        width: 100%;
+    }
+    .baking .container .baking-title{
+        display: none;
+    }
+}
